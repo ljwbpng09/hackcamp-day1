@@ -1,0 +1,15 @@
+# Hackcamp Day 1 - On-chain Hello World
+
+## 项目目标
+用 viem 查询以太坊主网钱包余额，验证 AI 工程化工作流。
+
+## 技术栈约束
+- Node.js >= v20 LTS
+- TypeScript (strict mode)
+- viem >= 2.x（不要用 ethers.js v5）
+- 用 fetch 不要装 axios
+
+## 风格约束
+- 命名清晰，不要用单字母变量
+- 错误处理：所有外部调用都要 try/catch 并打印有用日志
+- 输出友好，不要 console.log 一个原始 JSON
